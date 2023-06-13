@@ -1,0 +1,55 @@
+
+
+body{
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    background-image: url("https://github.com/learn-academy-2023-charlie/preparedness-assessment-SurielisRodriguez/blob/main/preparedness-frontend/src/assets/background-image.jpeg?raw=true");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    min-height: 100vh; 
+}
+.input{
+    flex-wrap: wrap;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+    padding-top: 14px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.entire-content{
+    padding-top: 5%;
+    color:white;
+}
+.form{
+    padding-top: 20%;
+}
+.input{
+    font-size:35px;
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.btn{
+    width:100px;
+    font-size: x-large;
+    background: #0dcaf0;
+    padding: 10%;
+    color: white;
+    
+}
+.header{
+   font-size: 50px; 
+   color: white;
+}
+
+button.btn.btn-secondary {
+    background: #0dcaf0;
+    margin-left: 20px;
+}
